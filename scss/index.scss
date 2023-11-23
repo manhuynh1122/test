@@ -9,6 +9,7 @@
     box-sizing: border-box;
     position: relative;
     width: fit-content;
+    
 }
 
 .container-header {
@@ -22,6 +23,7 @@
     position: fixed;
     top: 0;
     background-color: #FFF;
+    z-index: 1;
 }
 
 .navbar-header {
