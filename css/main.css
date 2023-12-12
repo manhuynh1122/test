@@ -1,12 +1,10 @@
-.container {
-  display: flex;
-  background: #F8F8F8;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 35px;
+
+
+.navbar-header {
+  justify-content: space-between;
+  display: inline-flex;
+  width: 100%;
   box-sizing: border-box;
-  position: relative;
 }
 
 .container-header {
@@ -22,33 +20,17 @@
   background-color: #FFF;
   z-index: 1;
 }
-
-.navbar-header {
-  justify-content: space-between;
-  display: inline-flex;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.navbar-left-section {
+.container-header .navbar-left-section {
   display: inline-flex;
   align-items: center;
   gap: 30px;
 }
-
-.karo-logo {
+.container-header .navbar-left-section .karo-logo {
   display: flex;
   align-items: center;
   gap: 9.778px;
 }
-
-.logo-item {
-  width: 34.222px;
-  height: 34.222px;
-  display: flex;
-}
-
-.logo-title {
+.container-header .navbar-left-section .karo-logo .logo-title {
   color: #000;
   text-align: center;
   font-family: Be Vietnam Pro;
@@ -61,23 +43,14 @@
   align-items: center;
   display: flex;
 }
-
-.navbar-item-search {
+.container-header .navbar-left-section .navbar-item-search {
   display: inline-flex;
   gap: 10px;
   padding: 15px 14px;
   border-radius: 10px;
   background: var(--background-grey, #F8F8F8);
 }
-
-.logo-search {
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-  display: flex;
-}
-
-.search-text {
+.container-header .navbar-left-section .navbar-item-search .search-text {
   color: var(--text-grey, #666);
   border: hidden;
   font-family: Be Vietnam Pro;
@@ -90,20 +63,17 @@
   border-radius: 10px;
   background: #F8F8F8;
 }
-
-.navbar-right-section {
+.container-header .navbar-right-section {
   display: inline-flex;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
 }
-
-.nav-list {
+.container-header .navbar-right-section .nav-list {
   display: flex;
   align-items: flex-start;
   gap: 30px;
 }
-
-.list {
+.container-header .navbar-right-section .nav-list .list {
   text-align: center;
   font-family: Be Vietnam Pro;
   font-size: 16px;
@@ -113,31 +83,34 @@
   color: #222222;
   /* 312.5% */
 }
-.list:hover {
+.container-header .navbar-right-section .nav-list .list:hover {
   color: #666;
   opacity: 0.8;
 }
-
-.login-register {
+.container-header .navbar-right-section .seperate-line {
+  box-sizing: border-box;
+  width: 1px;
+  height: 30px;
+  background: var(--border-light-grey, #EEE);
+}
+.container-header .navbar-right-section .login-register {
   display: flex;
   align-items: center;
   gap: 25px;
 }
-
-.login {
-  display: flex;
+.container-header .navbar-right-section .login-register .btn {
   padding: 10px 30px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 8px;
-  border: 1px solid var(--color-navy, #3D4C68);
-  background: var(--text-black, #222);
-  text-align: center;
-  font-family: Be Vietnam Pro;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+}
+
+.container {
+  display: flex;
+  background: #F8F8F8;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 35px;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .register {
@@ -154,13 +127,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-}
-
-.vertical {
-  box-sizing: border-box;
-  width: 1px;
-  height: 36px;
-  background: var(--border-light-grey, #EEE);
 }
 
 .account {
@@ -1254,7 +1220,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
   box-sizing: border-box;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .popup-content {
@@ -1486,4 +1452,4 @@
   line-height: 145%; /* 26.1px */
   position: absolute;
   top: 10px;
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=main.css.map */
