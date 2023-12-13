@@ -1,3 +1,13 @@
 .font-plus-bevietnampro{
     font-family: Be Vietnam Pro;
 }
+.font-white{
+    color: #fff;
+}
+.font-navy{
+    color: var(--color-navy, #3D4C68);
+}
+.font-red{
+    color: var(--color-red-primary, #B6020F);
+}
+$font-size-sm: 14px;

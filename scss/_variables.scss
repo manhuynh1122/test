@@ -1,0 +1,13 @@
+.dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50px;
+    background: var(--border-light-grey, #EEE);
+    box-sizing: border-box;
+}
+.lines {
+    width: 100%;
+    height: 1px;
+    background: var(--background-grey, #F8F8F8);
+    box-sizing: border-box;
+}

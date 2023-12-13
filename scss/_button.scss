@@ -1,20 +1,17 @@
-@mixin btn($bg-color: #e2e2e2) {
+@mixin btn() {
     cursor: pointer;
     color: var(--text-black, #222);
     text-align: center;
-    font-size: $base-font-size;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    
 }
 
 .btn {
     @include btn;
 }
 
-.btn-r-25 {
-    border-radius: 25px !important;
-}
 
 .sign-up-btn {
     display: flex;
@@ -23,4 +20,25 @@
     gap: 10px;
     border-radius: 8px;
     border: 1px solid var(--color-navy, #3D4C68);
+}
+.btn-func {
+    display: flex;
+    width: 100%;
+    padding: 10px 15px;
+    justify-content: center;
+    gap: 9.125px;
+    border-radius: 6px;
+    background: var(--white, #fff);
+    border: 0.8px solid #E0E3EA;
+    cursor: pointer;
+}
+.btn-tools{
+    display: flex;
+padding: 10px 15px;
+align-items: center;
+gap: 15px;
+align-self: stretch;
+border-radius: 6px;
+background: var(--background-grey, #F8F8F8);
+font-size: 14px;
 }
