@@ -11,3 +11,13 @@
     background: var(--background-grey, #F8F8F8);
     box-sizing: border-box;
 }
+.follow {
+    color: var(--color-red-primary, #B6020F);
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 128%;
+    /* 16.64px */
+    display: inline-flex;
+}
