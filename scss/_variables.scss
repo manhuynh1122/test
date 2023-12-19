@@ -21,3 +21,30 @@
     /* 16.64px */
     display: inline-flex;
 }
+
+.close-btn {
+    position: absolute;
+    color: #2E2E2E;
+    font-size: 25px;
+    font-weight: 700;
+    right: 0;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    display: flex;
+
+    &:hover{
+        color: #D2D2D2;
+    }
+}
+
+.seperate-line {
+    box-sizing: border-box;
+    width: 1px;
+    height: 30px;
+    background: var(--border-light-grey, #EEE);
+}

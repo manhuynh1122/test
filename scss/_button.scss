@@ -68,3 +68,13 @@
     width: 100%;
     gap: 9.125px;
 }
+
+.btn-black{
+border-radius: 8px;
+border: 1px solid var(--Color-Navy, #3D4C68);
+background: var(--Text-Black, #222);
+display: flex;
+padding: 10px 30px;
+align-items: flex-start;
+gap: 10px;
+}

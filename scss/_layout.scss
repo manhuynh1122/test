@@ -3,10 +3,9 @@
     box-sizing: border-box;
     align-items: flex-start;
     flex-direction: row;
-    gap: 1.5%;
     background: #F8F8F8;
     padding-top: 103px;
-    width: 1140px;
+    width: 1240px;
     max-width: 100%;
 
     .left-section {
@@ -716,4 +715,17 @@
 
 .dropdown-content a:hover {
     background-color: #ddd;
+}
+
+.images-content {
+    display: flex;
+    width: 1440px;
+    padding: 151px 390px;
+    justify-content: center;
+    align-items: center;
+    background: url(<path-to-image>), lightgray -9.736px -10.442px / 100.71% 194.984% no-repeat;
+    box-sizing: border-box;
+    background-image: url(images/18f66961620e9cfa3f18c6bd73dd9d39.png);
+
+
 }
