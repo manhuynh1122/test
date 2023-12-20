@@ -53,28 +53,6 @@
                 display: flex;
             }
         }
-
-        .navbar-item-search {
-            display: inline-flex;
-            gap: 10px;
-            padding: 15px 14px;
-            border-radius: 10px;
-            background: var(--background-grey, #F8F8F8);
-
-            .search-text {
-                color: var(--text-grey, #666);
-                border: hidden;
-                font-family: Be Vietnam Pro;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 145%;
-                /* 23.2px */
-                display: flex;
-                border-radius: 10px;
-                background: #F8F8F8;
-            }
-        }
     }
 
     .navbar-right-section {
@@ -140,4 +118,26 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 align-items: center;
 gap: 5px;
 align-self: stretch;
+}
+
+.navbar-item-search {
+    display: inline-flex;
+    gap: 10px;
+    padding: 15px 14px;
+    border-radius: 10px;
+    background: var(--background-grey, #F8F8F8);
+    width: 100%;
+
+    .search-text {
+        color: var(--text-grey, #666);
+        border: hidden;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 145%;
+        /* 23.2px */
+        display: flex;
+        border-radius: 10px;
+        background: #F8F8F8;
+    }
 }
