@@ -1,0 +1,49 @@
+.App main {
+  flex: 1 1 auto;
+  background: #010102;
+  width: var(--app-width);
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background-color: var(--color-accent);
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Main content */
+main {
+  flex: 1;
+
+}
+
+/* Footer */
+footer {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.App {
+  max-width: var(--app-width);
+  overflow-x: hidden;
+}

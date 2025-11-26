@@ -1,0 +1,31 @@
+@use "./blocks/header";
+@use "./blocks/font";
+@use "./blocks/icon-bottom";
+@use "./blocks/layout";
+@use "./blocks/reset.scss";
+@use "./blocks/color.scss";
+@use "./blocks/footer.scss";
+@use "./blocks/question.scss";
+@use "./blocks/blog.scss";
+@use "./blocks/unlock.scss";
+@use"./blocks/diagram3.scss";
+@use"./blocks/benefit.scss";
+@use "./blocks/hero.scss";
+//mobile
+@use "./blocks/header-mobile.scss";
+@use "./blocks/hero-mobile.scss";
+@use './blocks/FooterMobile.scss';
+@use '../assets/fonts (1)/fonts.scss';
+
+
+:root {
+  // Colors
+  --brand: #1a2adf;
+  --brand-2: #5c78ff;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --footer-h: 240px; // approximate footer height for desktop; adjusted via responsive rules
+  --font-apparat: 'SVN-Apparat', sans-serif;
+  --font-display: 'Inter Display', sans-serif;
+
+}
