@@ -1,4 +1,5 @@
 export default function Header() {
+    console.log("Header");
     return (
         <div className="wall-container">
             <div className="header-section">
